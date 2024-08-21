@@ -25,7 +25,7 @@ subcommand:
 Installs to `/usr/local/bin/`
 
 ```
-make env Install
+make env install
 ```
 
 Alternately `make release` will create an executable in dist/
