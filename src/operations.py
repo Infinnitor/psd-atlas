@@ -9,7 +9,7 @@ def extract(
     return [
         (layer.name, layer.composite())
         for layer in psd
-        if (layer.name != "Background" or not ignore_background_layer)
+        if (layer.name != "Background" or ignore_background_layer)
     ]
 
 
